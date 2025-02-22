@@ -39,8 +39,8 @@ theme = "mainroad"
 # [Params.thumbnail]
 #   visibility = ["list", "post"] # サムネイル画像の設定
 [Params.sidebar]
-  home = "left" # トップページのサイドバー位置
-  list = "right"  # 記事リストのサイドバー位置
+  home = "right" # トップページのサイドバー位置
+  list = "left"  # 記事リストのサイドバー位置
   single = true # 個別記事ページにサイドバーを表示するか
   widgets = ["search", "recent", "categories", "taglist", "social", "languages"]  #  ウィジェットの順序 
 [Params.widgets]
