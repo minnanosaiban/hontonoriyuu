@@ -10,7 +10,7 @@ theme = "mainroad"
 #   bio = "非エンジニアです"
 #   avatar = "img/avatar.png"
 [Params]
-  description = "私はNTTデータとパーソルテンプスタッフが公益通報者保護法違反をしたとして告発します。" # 検索エンジン向けの説明
+  description = "NTTデータとパーソルテンプスタッフの公益通報者保護法違反についてのブログ" # 検索エンジン向けの説明
   copyright = "TOMO" # 著作権表示
   opengraph = true # Twitter に張り付けた際にプレビューを有効化
   schema = true # SEO向け構造化データを有効化
@@ -35,7 +35,7 @@ theme = "mainroad"
 [Params.logo]
   image = "img/logo.png" # ロゴ
   title = "＃私が退職した本当の理由"
-  subtitle = "退職した企業との裁判の記録です" 
+  subtitle = "NTTデータとパーソルテンプスタッフの公益通報者保護法違反についてのブログ" 
 # [Params.thumbnail]
 #   visibility = ["list", "post"] # サムネイル画像の設定
 [Params.sidebar]
