@@ -1,0 +1,64 @@
+# 基本設定
+baseurl = "https://minnanosaiban.github.io/hontonoriyuu/"
+title = "＃私が退職した本当の理由 - NTTデータ・パーソルテンプスタッフ事件"
+languageCode = "ja-JP"
+pagination.pagerSize = "10"
+theme = "mainroad"
+# プロフィール
+# [Author]
+#   name = "TOMO"
+#   bio = "非エンジニアです"
+#   avatar = "img/avatar.png"
+[Params]
+  description = "NTTデータ・パーソルテンプスタッフ事件の経緯。公益通報者保護法違反について問題提起をしています。" # 検索エンジン向けの説明
+  copyright = "TOMO" # 著作権表示
+  opengraph = true # Twitter に張り付けた際にプレビューを有効化
+  schema = true # SEO向け構造化データを有効化
+  twitter_cards = true # Twitterカードを有効化
+  readmore = true # 「続きを読む」ボタンの有効化
+  authorbox = false # 著者情報の表示を有効化
+  toc = false # 目次（Table of Contents）を有効化
+  pager = false # 前後の記事ナビゲーションを有効化
+  post_meta =  ["author", "date", "categories", "translations"] # 記事に表示するメタ情報の順序
+  mainSections = ["post", "blog", "news"] # トップページに表示するセクション
+  dateformat = "2006-01-02" # 日付フォーマット（YYYY-MM-DD）
+#   mathjax = false # 数式表示を有効化
+#   mathjaxPath = "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.6/MathJax.js" # 
+#   mathjaxConfig = "TeX-AMS-MML_HTMLorMML" # 
+  googleFontsLink = "https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;700&display=swap" # フォントをカスタマイズ
+  customCSS = ["css/custom.css"] # カスタムCSSを適用
+  customJS = ["js/custom.js"] # カスタムJSを適用
+[Params.style.vars]
+  highlightColor = "#4A90E2" # サイトのアクセントカラー
+  fontFamilyPrimary = "'Open Sans', Helvetica, Arial, sans-serif" # 基本のフォント
+  fontFamilySecondary = "SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace" # コードブロック用のフォント
+[Params.logo]
+  image = "img/logo.png" # ロゴ
+  title = "＃私が退職した本当の理由"
+  subtitle = "NTTデータ・パーソルテンプスタッフ事件の経緯。公益通報者保護法違反について問題提起をしています。" 
+# [Params.thumbnail]
+#   visibility = ["list", "post"] # サムネイル画像の設定
+[Params.sidebar]
+  home = "right" # トップページのサイドバー位置
+  list = "left"  # 記事リストのサイドバー位置
+  single = true # 個別記事ページにサイドバーを表示するか
+  widgets = ["search", "recent", "categories", "taglist", "social", "languages"]  #  ウィジェットの順序 
+[Params.widgets]
+  recent_num = 5 # 「最近の投稿」の記事数
+  categories_counter = true # カテゴリの投稿数の有効化
+  tags_counter = true # タグの投稿数の有効化
+[Params.widgets.social] # SNSアイコンの有効化
+  cached = false # キャッシュを無効化（true にすると高速化できる）
+#   facebook = "username"
+#   twitter = "username"
+#   instagram = "username"
+#   linkedin = "username"
+#   telegram = "username"
+#   github = "username"
+#   gitlab = "username"
+#   bitbucket = "username"
+#   email = "example@example.com"
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
